@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.5.17", features = ["derive"] }
-rascii = "0.1.2"
+rascii_art = "0.4.5"
+reqwest = "0.12.7"
 rustemon = "3.5.0"
+tempdir = "0.3.7"
 tokio = { version = "1.40.0", features = ["full"] }
