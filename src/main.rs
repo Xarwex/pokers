@@ -11,7 +11,9 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum Commands {
+    /// Search the pokemon by name
     Name(Name),
+    /// Search the pokemon by id
     Id(Id),
 }
 
